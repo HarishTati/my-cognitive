@@ -48,7 +48,7 @@ $routeProvider
   templateUrl:'tone.html',
   controller:'ctrl5'
 })
-.otherwise({redirectTo:'/intro'});
+.otherwise({redirectTo:'/body'});
 
 })
 
