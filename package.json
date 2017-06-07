@@ -1,0 +1,19 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "materialize-css": "^0.98.2",
+    "mongoose": "^4.10.1",
+    "watson-developer-cloud": "^2.31.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,64 @@
+<div layout="column" ng-cloak class="md-inline-form" layout-align="center center">
+
+ 
+
+  <md-content layout-padding>
+    <div flex-xs flex-gt-sm="66" layout="column">
+	<md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch>
+	<md-card-title>
+	<md-card-title-text>
+            <span class="md-headline">Register</span>
+			<md-card-title-media>
+            <div class="md-media-sm card-media"></div>
+          </md-card-title-media>
+			
+                  
+	<br><br>
+		  
+      <form name="userForm" ng-submit='register()'>
+      <div>
+	  <md-input-container class="md-block" flex-gt-sm>
+            <label>First name</label>
+            <input ng-model="fName" required>
+          </md-input-container>
+	  
+      <md-input-container class="md-block" flex-gt-sm>
+        <label>Email</label>
+        <input ng-model="eml" type="email" required>
+      </md-input-container>
+	  
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>password</label>
+            <input ng-model="pwd" type="password" required>
+          </md-input-container>
+		  
+		 
+		  
+		  
+		  
+		  <md-input-container class="md-block" flex-gt-sm>
+            <label>Number</label>
+            <input ng-model="num" type="Number" required>
+          </md-input-container>
+		   
+		  
+		   <md-input-container>
+		  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		   <md-button type="register" class="md-raised" ng-click="register1()">Register</md-button>
+		  </md-input-container>
+		  
+		   
+		  
+        </div>
+
+            
+
+      </form>
+	      </md-card-title-text>
+	</md-card-title> 
+	     </md-card>
+
+    </div>
+  </md-content>
+
+</div>

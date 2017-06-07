@@ -1,0 +1,51 @@
+<div layout="column" class="md-inline-form ng-cloak" layout-align="center center">
+
+ 
+
+  <md-content layout-padding>
+    <div flex-xs flex-gt-xs="100" layout="column">
+	<md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch>
+	<md-card-title>
+	<md-card-title-text>
+            <span class="md-headline">Login</span>
+                  
+	 <md-card-title-media>
+            <div class="md-media-sm card-media"></div>
+          </md-card-title-media>
+		  
+      <form name="userForm">
+      <div>
+      <md-input-container class="md-block" flex-gt-sm>
+        <label>Email</label>
+        <input ng-model="email" type="email" required>
+      </md-input-container>
+	  
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>password</label>
+            <input ng-model="password" type="password" required>
+          </md-input-container>
+		  
+		  <md-input-container>
+		  
+		   <md-button class="md-raised" ng-click="validate()">Login</md-button>
+		  </md-input-container>
+		  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		  
+		  <md-input-container ng-hide="true">
+		  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		   <md-button class="md-raised" ng-click="register2()">Register</md-button>
+		  </md-input-container>
+        </div>
+
+
+            
+
+      </form>
+	      </md-card-title-text>
+	</md-card-title> 
+	     </md-card>
+
+    </div>
+  </md-content>
+
+</div>

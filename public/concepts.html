@@ -1,0 +1,36 @@
+
+ <div class="container">
+ <style>
+table {
+   
+    width: 100%;
+}
+
+th, td {
+     text-align: center;
+    padding: 8px;
+	font-family:sans-serif;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+     background-color: #505151;
+    color: white;
+	font-family:sans-serif;
+}
+</style>
+       <table ng-show="names">
+        <tr>
+            <th>Text</th>
+            <th>Relevance</th>
+            <!--<th>dbpedia_resource</th>-->
+        </tr>
+        <tr ng-repeat="nm in names.concepts" >
+            <td>{{nm.text}}</td>
+            <td>{{nm.relevance}}</td>
+          <!--   <td>{{nm.dbpedia_resource}}</td>-->
+        </tr>
+        </table> 
+
+   </div>
